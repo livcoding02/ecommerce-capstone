@@ -1,0 +1,33 @@
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 70vw;
+    margin: auto; 
+    z-index: 10;
+    filter: brightness(50%);
+}
+
+.banner-title {
+    width: 70vw;
+    position: absolute;
+    font-weight: bold;
+    font-size: 9rem;
+    z-index: 100;
+    text-shadow: white 1px 0 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.259)
+}
+     
+body{
+    background-color:darkorange;
+}
+    
+div.vstack.gap-3{
+    background-color: darkgreen;
+
+}
+
